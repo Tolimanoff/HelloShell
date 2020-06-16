@@ -1,0 +1,14 @@
+E:\XamarinProject\Test\HelloShell\HelloShell\bin\Debug\netstandard2.0\HelloShell.deps.json
+E:\XamarinProject\Test\HelloShell\HelloShell\bin\Debug\netstandard2.0\HelloShell.dll
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\HelloShell.csprojAssemblyReference.cache
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\HelloShell.csproj.CoreCompileInputs.cache
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\HelloShell.AssemblyInfoInputs.cache
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\HelloShell.AssemblyInfo.cs
+E:\XamarinProject\Test\HelloShell\HelloShell\bin\Debug\netstandard2.0\HelloShell.pdb
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\XamlC.stamp
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\HelloShell.dll
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\HelloShell.pdb
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\Cats.xaml.g.cs
+E:\XamarinProject\Test\HelloShell\HelloShell\obj\Debug\netstandard2.0\Dogs.xaml.g.cs
