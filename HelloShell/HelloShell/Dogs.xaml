@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:data1="clr-namespace:HelloShell.Data;assembly=HelloShell"
+             xmlns:controls="clr-namespace:HelloShell.Controls;assembly=HelloShell"
+             x:Class="HelloShell.Dogs">
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" 
+                                        Value="#EF6C00" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <Shell.SearchHandler>
+        <controls:AnimalSearchHandler Placeholder="Enter search term"
+                                      ShowsResults="true"
+                                      ItemTemplate="{StaticResource AnimalSearchTemplate}"
+                                      Animals="{x:Static data1:DogData.Dogs}" />
+    </Shell.SearchHandler>
+
+    <CollectionView Margin="20"
+                    ItemsSource="{x:Static data1:DogData.Dogs}"
+                    ItemTemplate="{StaticResource AnimalTemplate}"
+                    SelectionMode="Single" />
+</ContentPage>

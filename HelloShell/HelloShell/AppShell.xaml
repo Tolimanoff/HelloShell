@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:pages="clr-namespace:HelloShell"
+       x:Class="HelloShell.AppShell">
+
+    <TabBar>
+        <Tab Title="Pets" x:Name="Pets">
+            <ShellContent Route="Dogs" Title="Dogs"
+                          ContentTemplate="{DataTemplate pages:Dogs}" />
+            <ShellContent Route="Cats" Title="Cats"
+                          ContentTemplate="{DataTemplate pages:Cats}" />
+        </Tab>
+        <Tab Title="Dogs">
+            <ShellContent Route="Dogs"
+                          Title="Dogs"
+                          ContentTemplate="{DataTemplate pages:Dogs}" />
+        </Tab>
+        <Tab Title="Cats">
+            <ShellContent Route="Cats"
+                          Title="Cats"
+                          ContentTemplate="{DataTemplate pages:Cats}" />
+        </Tab>
+    </TabBar>
+</Shell>
